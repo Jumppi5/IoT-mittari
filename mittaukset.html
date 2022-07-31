@@ -6,7 +6,7 @@
 
                 <p id = "PT100 temperature" ><b>PT1000 temperature:      21.1 Celsius</b></p>
                 <p id = "DHT temperature" ><b>DHT temperature:  22.2 Celsius</b></p>
-                <p id = "Humidity" ><b>Humidity:        63.7 %RH</b></p>
+                <p id = "Humidity" ><b>Humidity:        63.6 %RH</b></p>
                 
                 <style type="text/css">
                     .chart-container {
@@ -31,11 +31,11 @@
                 const myChart = new Chart(ctx, {
                     type: 'line',
                     data: {
-                        labels: ['31.Jul 05:01', '31.Jul 05:08', '31.Jul 05:15', '31.Jul 05:22']
+                        labels: ['31.Jul 05:01', '31.Jul 05:08', '31.Jul 05:15', '31.Jul 05:22', '31.Jul 05:29']
 ,
                         datasets: [{
                             label: 'PT1000',
-                            data: ['21.2', '21.2', '21.2', '21.1']
+                            data: ['21.2', '21.2', '21.2', '21.1', '21.1']
 ,
                             backgroundColor: [
                                 'rgba(255, 99, 132, 0.2)',
@@ -75,11 +75,11 @@
                 const myChart2 = new Chart(ctx2, {
                     type: 'line',
                     data: {
-                        labels: ['31.Jul 05:01', '31.Jul 05:08', '31.Jul 05:15', '31.Jul 05:22']
+                        labels: ['31.Jul 05:01', '31.Jul 05:08', '31.Jul 05:15', '31.Jul 05:22', '31.Jul 05:29']
 ,
                         datasets: [{
                             label: 'Humidity',
-                            data: ['63.5', '63.5', '63.6', '63.7']
+                            data: ['63.5', '63.5', '63.6', '63.7', '63.6']
 ,
                             backgroundColor: [
                                 'rgba(255, 99, 132, 0.2)',
@@ -119,11 +119,11 @@
                 const myChart3 = new Chart(ctx3, {
                     type: 'line',
                     data: {
-                        labels: ['31.Jul 05:01', '31.Jul 05:08', '31.Jul 05:15', '31.Jul 05:22']
+                        labels: ['31.Jul 05:01', '31.Jul 05:08', '31.Jul 05:15', '31.Jul 05:22', '31.Jul 05:29']
 ,
                         datasets: [{
                             label: 'DHT temperature',
-                            data: ['22.2', '22.3', '22.3', '22.2']
+                            data: ['22.2', '22.3', '22.3', '22.2', '22.2']
 ,
                             backgroundColor: [
                                 'rgba(255, 99, 132, 0.2)',
