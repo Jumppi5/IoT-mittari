@@ -8,3 +8,11 @@ paina "connect"-nappia
 kirjoita "for pi username" windowsin terminaaliin
 syötä salasana "raspberry" (raspin salasana)
 DONE
+
+10.9.2023:
+avaa Putty
+Täytä host ja port (lukee remote it sivulla kun on yhdistetty SSH:lla)
+valitse ssh
+valitse open
+syötä username "for pi username"
+salasana unohtunut...
